@@ -1,0 +1,19 @@
+I used the script update_context_daily.rb to fetch the file from 
+Pragma and convert it into a revision in git. But I manually switched 
+the following line on and off: 
+commit_to_git("beta", File.join($ver_path, 'beta'), $git_path) 
+
+I used the script convert_from_gitorious_to_new_repo.rb to fetch 
+revisions from the gitorious repository, modify them and import them 
+to the repository (as long as the gitorious repository was alive). 
+
+What needs to be done now is the following: 
+
+- list versions available in our git repository 
+- list versions available in Taco's archive 
+- determine what to take from which one based on what's present and 
+what's missing 
+
+- either rewrite my script from scratch or modify it, so that it will 
+fetch every Taco's file, extract it and commit it to git (with proper 
+date & committer set) 

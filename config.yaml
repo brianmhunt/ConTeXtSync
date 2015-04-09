@@ -1,0 +1,19 @@
+#
+#   ConTeXtSync
+# Configuration
+#
+#
+
+
+versions:
+  current:
+    source: http://www.pragma-ade.com/context/current/cont-tmf.zip
+  beta:
+    source: http://www.pragma-ade.com/context/beta/cont-tmf.zip
+  # test:
+  #   host: www.pragma-ade.com
+  #   port: 80
+  #   path: cont-tst.7z
+
+
+download_path: ./download/

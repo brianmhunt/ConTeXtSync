@@ -1,0 +1,37 @@
+{
+  "name": "ConTeXtSync",
+  "version": "1.0.0",
+  "description": "ConTeXt Taco<->Git syncing utility",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://brianmhunt@github.com/brianmhunt/ConTeXtSync.git"
+  },
+  "keywords": [
+    "ConTeXt",
+    "TeX"
+  ],
+  "author": "Brian M Hunt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianmhunt/ConTeXtSync/issues"
+  },
+  "homepage": "https://github.com/brianmhunt/ConTeXtSync",
+  "dependencies": {
+    "decompress-zip": "^0.1.0",
+    "gulp": "^3.8.11",
+    "gulp-download": "0.0.1",
+    "gulp-load-plugins": "^0.9.0",
+    "gulp-menu": "^0.2.2",
+    "gulp-unzip": "^0.1.3",
+    "js-yaml": "^3.2.7",
+    "request": "^2.55.0",
+    "vinyl-assign": "^1.1.0"
+  },
+  "devDependencies": {
+    "del": "^1.1.1"
+  }
+}
