@@ -17,3 +17,9 @@ versions:
 
 
 download_path: ./download/
+etag_path: ./download/.etag
+
+
+progress_settings:
+  throttle: 2500
+  delay: 1500
